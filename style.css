@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border-bottom: 1px solid white;
+    padding: 10px 60px;
+}
+
+.run {
+    height: 40px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+.run:hover {
+    transform: scale(1.1);
+}
+
+.previews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.html-btn {
+    height: 40px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all ease 1s;
+    margin-right: 15px;
+}
+
+.html-btn:hover {
+    transform: scale(1.1);
+}
+
+.preview-btn {
+    height: 40px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+.preview-btn:hover {
+    transform: scale(1.1);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.editor-pain {
+    flex: 1;
+}
+
+.editor {
+    width: 50vw;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0);
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.preview-frame {
+    width: 50vw;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 20px;
+}
+
+.html-output {
+    width: 50vw;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 20px;
+}
+
+.tlt {
+    height: 60px;
+    width: 100vw;
+    border-bottom: 1px solid white;
+}
+
+.console-title {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.console {
+    width: 100vw;
+    height: 370px;
+}
