@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM-Sketchbook</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="content">
+        <div class="header">
+            <h2>DOM Sketchbook</h2>
+            <button class="run">Run ▶</button>
+            <div class="previews">
+                <button class="html-btn">HTML</button>
+                <button class="preview-btn">Preview</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="editor-pain">
+                <textarea class="editor" spellcheck="false" placeholder="Write JS here."></textarea>
+            </div>
+            <div class="output-pane">
+                 <div class="preview-tab" class="tab">
+                    <iframe class="preview-frame"></iframe>
+                </div>
+                <div class="tab" style="display:none;">
+                    <pre class="html-output"></pre>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="tlt">
+                <h3 class="console-title"> >_   Console</h3>
+            </div>
+            <div class="console"></div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
