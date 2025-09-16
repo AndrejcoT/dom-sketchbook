@@ -103,6 +103,10 @@ body {
     font-size: 15px;
 }
 
+.editor:focus {
+    outline: none;
+}
+
 .preview-frame {
     width: 50vw;
     height: 400px;
@@ -139,5 +143,5 @@ body {
 
 .console {
     width: 100vw;
-    height: 370px;
+    height: 340px;
 }
