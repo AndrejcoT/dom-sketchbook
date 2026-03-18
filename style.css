@@ -145,3 +145,11 @@ body {
     width: 100vw;
     height: 340px;
 }
+
+.html-output {
+    height: 395px;
+}
+
+.console div {
+    margin: 15px;
+}
